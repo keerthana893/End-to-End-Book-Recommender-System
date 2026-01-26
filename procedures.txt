@@ -1,15 +1,18 @@
-create a repository in git hub 
-then open the terminal from the folder where you want to keep the files related to this project
-clone the link from the code option in the repository ...copy the http link and paste it in terminal with (git clone LINK) command... ( git clone https://github.com/keerthana893/End-to-End-Book-Recommender-System.git)
-we are opening the folder (cd project name)-( cd End-to-End-Book-Recommender-System/)
-then the folder is craeted in the System
-inside the project folder open the code option-lead to vs code with folder created in vs code
-craete a conda command/environment after opening the repository-to install some libraries here and create environment for the project
-3.7 python version is stable-we will not get any error with this version,if it is new version libraries will be unstable and error will keep on popping
-for that in vs code terminal or in system terminal- conda create -n books python=3.7.10 -y
-then activate this envi-( conda activate books )
-envi got activated
-create a folder -requirements.txt-enter the list of libraries we need...then (pip install -r requirements.txt)-this will install all the packages we have entered in this folder
+1: create a repository in git hub 
+2: then open the terminal from the folder where you want to keep the files related to this project
+3: clone the link from the code option in the repository ...copy the http link and paste it in terminal with (git clone LINK) command... 
+( git clone https://github.com/keerthana893/End-to-End-Book-Recommender-System.git)
+4: we are opening the folder (cd project name)-( cd End-to-End-Book-Recommender-System/)
+5: then the folder is craeted in the System
+6: inside the project folder open the code option-lead to vs code with folder created in vs code
+7: create a conda command/environment after opening the repository-to install some libraries here and create environment for the project
+8: 3.7 python version is stable-we will not get any error with this version,if it is new version libraries will be unstable and error will keep on popping
+9: for that in vs code terminal or in system terminal- conda create -n books python=3.9 -y
+10: then activate this envi-( conda activate books )
+11: envi got activated
+12: create a folder -requirements.txt-enter the list of libraries we need...then (pip install -r requirements.txt)-this will install all the 
+packages we have entered in this folder
 
-
-
+13: updating every file and folder in here in github by using source control icon under search icon in the left panel...by giving (requirements added) command
+14: opening a folder and creating a notebook with jupyter notebook file where we test all codes,train model...if everything comes right then proceed to modular form
+15: 
