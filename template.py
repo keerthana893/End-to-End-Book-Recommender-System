@@ -5,7 +5,7 @@ import os
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s]:-%(message)s:')
 project_name = "books_recommender"
 
-# structure for modular code and pipeline
+# structure for modular code and pipeline..this is to create files and folders not by just manually doing it with icons
 
 list_of_files = [
     f"{project_name}/__init__.py",
@@ -27,6 +27,7 @@ list_of_files = [
     f"{project_name}/pipeline/training_pipeline.py",
     f"{project_name}/utils/__init__.py",
     f"{project_name}/utils/utils.py",
+    "config/config.yaml",
     ".dockerignore",
     "app.py",
     "Dockerfile",
