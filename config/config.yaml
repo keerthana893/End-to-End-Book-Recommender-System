@@ -1,0 +1,38 @@
+# data ingestion-it will have data ingestion related variables and URL's.
+# first it will create artifact folder,whatever my code will generate it will be stored in artifact folder.
+# when i open this link for data ..the o/p will be 3 data files inside zip and it will be stored in data_ingestion folder inside artifact folder. 
+# 1. config_yaml(has data,read the yaml data in this), 2.code in config entity(data that it has studied,stores here) ,
+# 3.go to configuration.py
+
+artifact_config:
+  artifact_dir: artifacts
+    # this is the folder where we will download the data from the URL.
+    
+data_ingestion_config:
+  dataset_download_url: https://github.com/keerthana893/End-to-End-Book-Recommender-System/raw/refs/heads/main/bookdataset.zip
+  dataset_dir: dataset
+  ingested_dir: ingested_data
+  raw_data_dir: raw_data
+        
+# this is the URL from where we will download the data.
+data_validation_config:
+  clean_data_dir: clean_data
+  serialized_objects_dir: serialized_objects
+  books_csv_file: BX-Books.csv
+  ratings_csv_file: BX-Book-Ratings.csv
+
+
+
+data_transformation_config:
+  transformed_data_dir: transformed_data
+
+
+
+model_trainer_config:
+  trained_model_dir: trained_model
+  trained_model_name: model.pkl
+
+
+recommendation_config:
+  poster_api_url: https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US        
+
