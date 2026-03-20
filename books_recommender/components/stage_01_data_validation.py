@@ -28,7 +28,7 @@ class DataValidation:
 
             #Here Image URL columns is important for the poster. So, we will keep it
             books = books[['ISBN','Book-Title', 'Book-Author', 'Year-Of-Publication', 'Publisher','Image-URL-L']]
-            # Lets remane some wierd columns name in books
+            # Lets rename some weird columns name in books
             books.rename(columns={"Book-Title":'title',
                                 'Book-Author':'author',
                                 "Year-Of-Publication":'year',
@@ -36,7 +36,7 @@ class DataValidation:
                                 "Image-URL-L":"image_url"},inplace=True)
 
             
-            # Lets remane some wierd columns name in ratings
+            # Lets rename some weird columns name in ratings
             ratings.rename(columns={"User-ID":'user_id',
                                 'Book-Rating':'rating'},inplace=True)
 
