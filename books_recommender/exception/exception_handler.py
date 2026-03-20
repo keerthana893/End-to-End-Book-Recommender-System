@@ -1,8 +1,5 @@
-
 import os
 import sys
-
-
 class AppException(Exception):
     """
     Organization: iNeuron Intelligence Private Limited
