@@ -15,4 +15,12 @@ packages we have entered in this folder
 
 13: updating every file and folder in here in github by using source control icon under search icon in the left panel...by giving (requirements added) command
 14: opening a folder and creating a notebook with jupyter notebook file where we test all codes,train model...if everything comes right then proceed to modular form
-15: 
+15: modular form update order:
+config.yaml
+config/configuration.py
+components
+pipeline
+main.py
+app.py
+-- so that all functions can be called in different modules and works right
+
