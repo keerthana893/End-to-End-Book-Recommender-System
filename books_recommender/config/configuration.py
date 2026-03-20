@@ -18,7 +18,6 @@ class AppConfiguration:
     
     def get_data_ingestion_config(self) -> DataIngestionConfig:
         try:
-            print(self.configs_info.keys())
             data_ingestion_config = self.configs_info['data_ingestion_config']
             artifacts_dir = self.configs_info['artifacts_config']['artifacts_dir']
             dataset_dir = data_ingestion_config['dataset_dir']
