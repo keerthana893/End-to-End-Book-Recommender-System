@@ -4,8 +4,8 @@
 # 1. config_yaml(has data,read the yaml data in this), 2.code in config entity(data that it has studied,stores here) ,
 # 3.go to configuration.py
 
-artifact_config:
-  artifact_dir: artifacts
+artifacts_config:
+  artifacts_dir: artifacts
     # this is the folder where we will download the data from the URL.
     
 data_ingestion_config:
