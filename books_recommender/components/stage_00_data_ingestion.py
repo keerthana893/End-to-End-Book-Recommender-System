@@ -11,7 +11,7 @@ class DataIngestion:
 
     def __init__(self, app_config = AppConfiguration()):
         """
-        DataIngestion Intialization
+        DataIngestion Initialization
         data_ingestion_config: DataIngestionConfig 
         """
         try:
