@@ -1,8 +1,9 @@
 # End-to-End-Book-Recommender-System
 
 # WORKFLOW
-UPDATE
+UPDATE modules in this order
 - config.yaml
+- entity
 - config/configuration.py
 - components
 - pipeline
