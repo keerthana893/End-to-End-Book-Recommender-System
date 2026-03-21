@@ -53,6 +53,8 @@
 4. Model Training
 5. Recommendation Generation
 
+<img width="1316" height="810" alt="Screenshot 2026-03-21 162700" src="https://github.com/user-attachments/assets/0f2c5521-471c-4f11-839a-8d19414fa531" />
+
 # WORKFLOW
 UPDATE modules in this order
 - config.yaml
