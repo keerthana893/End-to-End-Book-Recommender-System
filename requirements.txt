@@ -1,10 +1,9 @@
 
 # once yaml package is installed ..it will create egg-info folder ,means book recommender system is now a local package in our system
-#, we can import it anywhere in our system and use it.---local package installation is done---egg file is created
+#, -e . - we can import it anywhere in our system and use it.---local package installation is done---egg file is created
 streamlit==1.32.0
--e .
-pandas
-numpy
-scikit-learn
-pyyaml
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+pyyaml==6.0.1
 altair==5.2.0
