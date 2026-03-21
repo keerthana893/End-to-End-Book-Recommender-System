@@ -8,7 +8,12 @@ with open("README.md","r",encoding="utf-8") as f:
 REPO_NAME="ML Based Books Recommender System"
 AUTHOR_USER_NAME="KEERTHANA"
 SRC_REPO="books_recommender"
-LIST_OF_REQUIREMENTS=[]
+LIST_OF_REQUIREMENTS=["streamlit==1.19.0",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "pyyaml",
+    "altair==4.2.2"]
 
 setup(
     name=SRC_REPO,
