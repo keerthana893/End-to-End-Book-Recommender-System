@@ -3,9 +3,12 @@
 #, -e . - we can import it anywhere in our system and use it.---local package installation is done---egg file is created
 
 
-streamlit==1.28.2
-pandas==1.5.3
-numpy==1.23.5
-scikit-learn==1.2.2
-pyyaml==6.0.1
+streamlit>=1.28.2
 
+pandas>=2.0.0
+
+numpy>=1.26.0
+
+scikit-learn
+
+pyyaml
