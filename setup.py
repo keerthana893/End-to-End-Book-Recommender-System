@@ -27,7 +27,7 @@ setup(
     packages=find_packages(),# this will look for constructor file,wherever it is present and will consider that as a and set that up as a local package
     license="MIT",
     python_requires=">=3.9",
-    install_requires=LIST_OF_REQUIREMENTS
+    install_requires=[]
 )
 
 # to execute this file and set that package up as a local package, we need to type "-e . " in requirement .txt file, this will execute the 
