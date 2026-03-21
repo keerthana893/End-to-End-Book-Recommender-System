@@ -1,6 +1,6 @@
 # End-to-End-Book-Recommender-System
-    This project is an end-to-end Machine Learning based Book Recommender System that suggests similar books using a K-Nearest Neighbors(KNN) model based on user ratings-USING COLLABORATIVE FILTERING METHOD
-
+    This project is an end-to-end Machine Learning based Book Recommender System that suggests similar books using a K-Nearest Neighbors(KNN)model based on user ratings-USING COLLABORATIVE FILTERING METHOD
+    
     The system is built with a modular pipeline architecture and deployed using Streamlit cloud
 
 # APP LINK
