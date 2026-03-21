@@ -57,8 +57,9 @@
 5. Recommendation Generation
 
 # 📸 Screenshots
+<img width="1316" height="810" alt="Screenshot 2026-03-21 162700" src="https://github.com/user-attachments/assets/ba584116-361e-4118-9cc9-03e3f8b5dd9c" />
 
-C:\Users\keert\Desktop\Screenshot 2026-03-21 162700.png
+
 
 # WORKFLOW
 UPDATE modules in this order
