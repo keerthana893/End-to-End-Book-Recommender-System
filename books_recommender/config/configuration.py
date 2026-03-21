@@ -132,10 +132,10 @@ class AppConfiguration:
             final_rating_serialized_objects = os.path.join(artifacts_dir, data_validation_config['serialized_objects_dir'], 'final_rating.pkl')
             trained_model_path = os.path.join(trained_model_dir,trained_model_name)
             response = ModelRecommendationConfig(
-                book_name_serialized_objects = book_name_serialized_objects,
-                book_pivot_serialized_objects = book_pivot_serialized_objects,
-                final_rating_serialized_objects = final_rating_serialized_objects,
-                trained_model_path = trained_model_path
+                                                book_name_serialized_objects = book_name_serialized_objects,
+                                                book_pivot_serialized_objects = book_pivot_serialized_objects,
+                                                final_rating_serialized_objects = final_rating_serialized_objects,
+                                                trained_model_path = trained_model_path
             )
 
             logging.info(f"Model Recommendation Config: {response}")
