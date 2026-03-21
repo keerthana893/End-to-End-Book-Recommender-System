@@ -1,9 +1,10 @@
-scikit-learn
-pandas
-numpy
-seaborn
-pyYAML # once yaml package is installed ..it will create egg-info folder ,means book recommender system is now a local package in our system
+
+# once yaml package is installed ..it will create egg-info folder ,means book recommender system is now a local package in our system
 #, we can import it anywhere in our system and use it.---local package installation is done---egg file is created
 streamlit
 -e .
+pandas
+numpy
+scikit-learn
 pyyaml
+altair==4.2.2
