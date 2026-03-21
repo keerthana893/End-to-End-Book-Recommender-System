@@ -3,8 +3,6 @@
     
     The system is built with a modular pipeline architecture and deployed using Streamlit cloud
 
-# APP LINK
-
 #  Features
 
 -  Book recommendation based on similar taste users
@@ -53,7 +51,11 @@
 4. Model Training
 5. Recommendation Generation
 
+# SCREENSHOT OF THE APP:
 <img width="1316" height="810" alt="Screenshot 2026-03-21 162700" src="https://github.com/user-attachments/assets/0f2c5521-471c-4f11-839a-8d19414fa531" />
+
+# streamlit app link: 
+https://keerthana893-end-to-end-book-recommender-system-app-qrecor.streamlit.app/
 
 # WORKFLOW
 UPDATE modules in this order
@@ -65,5 +67,5 @@ UPDATE modules in this order
 - main.py
 - app.py
 
-streamlit app link: https://keerthana893-end-to-end-book-recommender-system-app-qrecor.streamlit.app/
+
 
